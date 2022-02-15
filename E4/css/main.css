@@ -1,0 +1,40 @@
+body {
+  background-color: #ff5985;
+}
+}
+div {
+  margin-top: 40vh;
+}
+.mobile-only {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: pink;
+  }
+  p {
+    color: crimson;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+}
+
+/* @media only screen and (min-width: 768px) {
+  body {
+    background-color: pink;
+  }
+  p {
+    color: crimson;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+} */
