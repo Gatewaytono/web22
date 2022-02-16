@@ -1,1 +1,13 @@
-/*p size cant be bigger than 16pts*/
+body {
+  background-color:#EFFBFF;
+  font-family: 'Nunito', sans-serif
+}
+
+h1 {
+  color: #FF91B4;
+}
+
+
+a:link, a:visited {
+  color: #443989;
+}
