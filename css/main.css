@@ -7,7 +7,14 @@ h1 {
   color: #FF91B4;
 }
 
+h2 {
+  color: #cc78ad;
+}
 
 a:link, a:visited {
-  color: #443989;
+  color: #8c3a87;
+}
+
+li {
+  color: #8c3a87;
 }
