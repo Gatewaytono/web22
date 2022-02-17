@@ -1,9 +1,22 @@
 body {
-  background-color: #ff5985;
+  background-color: #ff8094;
+  font-family: 'Nunito', sans-serif;
+  font-size: 60px;
 }
+
+p{
+  line-height: .1em;
+  color: #ffedf0;
+  text-align: center;
 }
+
+.bigger-view {
+  font-size: 2.5em;
+  padding-top: .2em;
+}
+
 div {
-  margin-top: 40vh;
+  margin-top: 45vh;
 }
 .mobile-only {
   display: none;
@@ -14,12 +27,12 @@ div {
     background-color: pink;
   }
   p {
-    color: crimson;
+    color: #ffedf0;
   }
   .mobile-only {
     display: block;
   }
-  .desktop-only {
+  .bigger-view {
     display: none;
   }
 }
